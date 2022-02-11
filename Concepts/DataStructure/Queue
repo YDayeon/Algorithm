@@ -1,4 +1,3 @@
-// Data-Structure : Queue
 // with Array
 class Queue {
   constructor() {
