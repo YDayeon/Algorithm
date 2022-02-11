@@ -20,7 +20,7 @@ class SinglyLinkedList {
 
   append(newValue) {
     const newNode = new Node(newValue);
-    if ((this.head = null)) {
+    if (this.head = null) {
       this.head = newNode;
       this.tail = newNode;
     } else {
