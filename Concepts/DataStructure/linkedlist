@@ -37,7 +37,7 @@ class SinglyLinkedList {
 
   remove(value) {
     let preNode = this.head;
-    while (preNode.new.value !== value) {
+    while (preNode.next.value !== value) {
       preNode = preNode.next;
     }
 
